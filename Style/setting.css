@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.fy{    /* F : Font | y : yekan == iranyekanweb*/
+    font-family: "iranyekanweb";
+}
+.fs{     /* F : Font | s : sans == iransansweb*/
+    font-family: "iransansweb";
+    /* background-color: rgb(200, 255, 146); */
+}
+li{
+    list-style: none;
+}
+button{
+    cursor: pointer;
+}
+

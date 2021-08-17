@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>To-do List</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <link rel="stylesheet" href="Style/style.css">
+        <link rel="stylesheet" href="Style/setting.css">
+
+        <meta charset="utf-8">
+        
+    </head>
+    <body>
+
+        <div class="parent">
+            <div class="main">
+                <div class="box_right">
+
+                    <select onchange="changed()" id="dataList" class="fs right_select" dir="rtl">
+                        <option class="all">نمایش همه</option>
+                        <option class="ok">انجام شده</option>
+                        <option class="no">انجام نشده</option>
+                    </select>
+                </div>
+
+
+                <div class="box_main">
+                   
+                    <div class="time">
+                        <p class="fy time-p">تاریخ امروز</p>
+                        <div class="reload">
+                            <i class=" fa fa-refresh"></i>
+                        </div>
+                    </div>
+
+                    <ul class="main_ul">
+
+                        <!-- <li class="main_ul-li fs show checked" data-id="1">
+                            <p class="main_ul-li_p">رضا</p>
+                            <i class="fa fa-remove icon"></i>
+                            <i class="fa material-icons icon">check_box</i>
+                            <div class="created_time"></div>
+                            <div class="main_ul-time">
+                                <p>:تاریخ ثبت</p>
+                               <span class="main_ul-li_p-time" >11:12:10 : ساعت</span></div>
+                                <div><span class="main_ul-li_p-time" >تاریخ : خرداد ۲۴, دوشنبه </span></div>
+                            </div>
+                            
+                        </li> -->
+
+                    </ul>
+
+                    <div class="main-parent_input">
+                        <input type="text" class="main-input fs" placeholder="کارهایی که قراره انجام بدی...  |  (۰ تا ۳۰ کاراکتر)" dir="rtl">
+                        <button class="main-button fa fa-angle-up"></button>
+                    </div>
+
+                </div>
+
+                <div class="box_left">
+                    <p class="box_left-p fs">ساعت</p>
+                </div>
+                
+            </div>
+
+
+        
+            
+        </div>
+                <script src="Script/Persian.js"></script>
+                <script src="Script/script.js"></script>
+
+    </body>
+</html>
